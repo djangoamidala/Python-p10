@@ -12,4 +12,4 @@ chocolates = 17
 friends = 3
 
 # réponse 3.3
-
+candies_per_person = 
