@@ -13,3 +13,7 @@ friends = 3
 
 # réponse 3.2
 
+candies_rest = 15 % 3
+print(candies_rest)
+chocolates_rest = 17 % 3
+print(chocolates_rest)
