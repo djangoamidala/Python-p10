@@ -16,3 +16,9 @@ print(mails)
 
 # réponse 4.8
 
+if mails == 0:
+    print("Il n'y a aucun mail")
+elif mails == 1:
+    print("Il y a un nouveau mail")
+else:
+    print(f"Il y a {mails} nouveaux mails")

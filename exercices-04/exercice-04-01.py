@@ -11,3 +11,7 @@ print(number)
 
 # réponse 4.1
 
+if number == 1:
+    print("Le nombre est égale à 1")
+else: 
+    print("Le nombre est différent de 1")

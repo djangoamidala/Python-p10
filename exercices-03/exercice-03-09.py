@@ -23,6 +23,6 @@ price_per_kilo_beta = 1 / weight_beta * price_beta
 print(price_per_kilo_beta)
 
 if price_per_kilo_alpha < price_per_kilo_beta:
-    print(True)
+    print("Charly a raison")
 else:
-    print(False)
+    print("Charly a tord")
