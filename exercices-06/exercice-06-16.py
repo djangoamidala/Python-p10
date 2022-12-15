@@ -21,3 +21,5 @@ idx5 = my_list.index(1.61)
 my_list[idx0],my_list[idx1],my_list[idx2], my_list[idx3],my_list[idx4],my_list[idx5] = my_list[idx1], my_list[idx0], my_list[idx3], my_list[idx2],my_list[idx5],my_list[idx4]
 
 print(my_list)
+
+

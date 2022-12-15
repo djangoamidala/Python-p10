@@ -11,3 +11,4 @@ def listMultiply(my_list,n):
     return my_list_mult
 n = 100
 print(listMultiply(my_list,n)) # affiche la liste * 100
+
