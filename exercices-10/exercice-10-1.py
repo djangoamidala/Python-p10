@@ -6,3 +6,9 @@
 # Appelez la fonction et affichez le résultat
 
 # réponse 10.1
+
+def  my_sum(a: float, b: float) -> float:
+    '''a and b float'''
+    return a + b
+    
+print(my_sum(15,48))

@@ -10,3 +10,11 @@ def Moyenne(l):
 
 moyenne = Moyenne(my_list)
 print(moyenne)
+
+result = 0
+my_sum = 0
+
+for number in my_list:
+    my_sum += number
+result = my_sum / len(my_list)
+print(result)

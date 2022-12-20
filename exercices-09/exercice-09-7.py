@@ -12,5 +12,6 @@ my_dict = {
     'baz': 'lorem ipsum',
     'lorem': True
 }
-
 # réponse 9.7
+for cle, valeurs in my_dict.items():
+    print(f"key : {cle}")

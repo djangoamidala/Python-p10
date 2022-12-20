@@ -7,3 +7,7 @@
 # Appelez la fonction et affichez le résultat
 
 # réponse 10.2
+def  my_diff(a: int, b: int) -> int:
+    '''a and b int'''
+    return a - b
+print(my_diff(140,8))
