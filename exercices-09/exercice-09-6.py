@@ -10,3 +10,5 @@ my_dict = {
 }
 
 # réponse 9.6
+my_dict.update({'foo': 123})
+print(my_dict)

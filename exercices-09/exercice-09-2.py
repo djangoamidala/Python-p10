@@ -7,3 +7,10 @@
 # Puis affichez le résultat avec un simple `print()`
 
 # réponse 9.2
+my_dict = {
+    True: 42,
+    False: 3.14,
+    42: 'lorem ipsum',
+    'lorem': True
+}
+print(my_dict)
