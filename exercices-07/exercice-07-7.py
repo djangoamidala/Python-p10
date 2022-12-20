@@ -5,3 +5,7 @@
 import random
 
 # réponse 7.7
+for r in range(100):
+    r = random.randint(1, 10)
+    if r in range(3,8):
+        print(r)

@@ -11,15 +11,21 @@
 my_list = [2.71, 42, 123, 2, 3.14, 1.61]
 
 # réponse 6.16
-idx0 = my_list.index(2.71)
-idx1 = my_list.index(42)
-idx2 = my_list.index(123)
-idx3 = my_list.index(2)
-idx4 = my_list.index(3.14)
-idx5 = my_list.index(1.61)
 
-my_list[idx0],my_list[idx1],my_list[idx2], my_list[idx3],my_list[idx4],my_list[idx5] = my_list[idx1], my_list[idx0], my_list[idx3], my_list[idx2],my_list[idx5],my_list[idx4]
+new_list = []
+pos = 0
+check = False
 
+for n in my_list:
+    if(check == True):
+        check = False
+        pos += 1
+        continue
+    n1 = my_list[pos]
+    n2 = my_list[pos + 1]
+    new_list.append(n2)
+    new_list.append(n1)
+    check = True
+    pos += 1
+print(new_list)
 print(my_list)
-
-

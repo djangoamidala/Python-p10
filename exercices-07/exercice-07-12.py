@@ -6,3 +6,9 @@
 import random
 
 # réponse 7.12
+count = 0
+for r in range(100):
+    r = random.randint(1,10)
+    if r in range(2,10):
+        count += 1
+        print(f"""{count} : {r}""")

@@ -7,13 +7,3 @@ my_list = ['Lorem', 'ipsum', 'dolor', 'sit', 'amet', 'consectetur', 'adipiscing'
 # réponse 6.15
 res = len(max(my_list, key = len))
 print("Length of maximum string is : " + str(res))
-
-i = 0
-while :
-    # incrémentation de 1
-    i += 1
-    print("boucle " + str(i))
-
-    if i == 10:
-        # interruption de la boucle
-        break
