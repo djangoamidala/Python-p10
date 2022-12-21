@@ -16,7 +16,3 @@ candies_per_person = 15 / 3
 chocolates_per_person = 17 / 3 
 print(candies_per_person,chocolates_per_person)
 
-pi = 10
-while pi <= 1000 :
-    print(pi)
-    pi += 1

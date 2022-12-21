@@ -7,3 +7,4 @@ def  multiplication (a: float, b: float) -> float:
     '''a and b float'''
     return a * b
 print(multiplication.__doc__)
+print(help(multiplication))

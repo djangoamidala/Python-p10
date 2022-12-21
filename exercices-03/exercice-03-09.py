@@ -26,3 +26,5 @@ if price_per_kilo_alpha < price_per_kilo_beta:
     print("Charly a raison")
 else:
     print("Charly a tord")
+
+print(price_per_kilo_alpha < price_per_kilo_beta)
