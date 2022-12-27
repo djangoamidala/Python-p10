@@ -9,3 +9,13 @@
 # Pas la peine de créer de getters et de setters
 
 # réponse 12.1
+class User:
+    firstname = 'kk'
+    lastname = ''
+    email = ''
+    newsletter = False
+    def __init__(self, firstname, lastname, email, newsletter):
+        self.firstname = firstname
+        self.lastname = lastname
+        self.email = email
+        self.newsletter = newsletter

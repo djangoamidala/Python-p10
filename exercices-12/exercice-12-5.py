@@ -11,3 +11,16 @@
 #   - price: 16,18
 
 # réponse 12.5
+class TaxFreeProduct:
+    
+    def __init__(self, name, price):
+        self.name = name
+        self.price = price
+
+product1 = TaxFreeProduct("Foo", 31.41)
+
+product2 = TaxFreeProduct("Bar", 27.18)
+
+product3 = TaxFreeProduct("Baz", 16.18)
+
+print(product1.name, product1.price)
