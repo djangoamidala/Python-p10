@@ -7,3 +7,10 @@
 # Appelez la fonction et affichez le résultat
 
 # réponse 10.4
+def is_greater(a:float, b:float) -> bool:
+    if a > b:
+        return True
+    else:
+        return False
+
+print(is_greater(8,66))

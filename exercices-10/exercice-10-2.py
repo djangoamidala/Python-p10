@@ -10,4 +10,5 @@
 def  my_diff(a: int, b: int) -> int:
     '''a and b int'''
     return a - b
-print(my_diff(10.5,8))
+
+my_diff(10.5,8)

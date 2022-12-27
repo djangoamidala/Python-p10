@@ -14,4 +14,4 @@ for _ in range(0, size):
 print(matrix)
 
 # réponse 6.17
-
+print(matrix[3][2])

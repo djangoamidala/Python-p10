@@ -14,4 +14,7 @@ for _ in range(0, size):
 print(matrix)
 
 # réponse 6.18
-
+for i, e in matrix:
+    if size <= 50:
+        print(matrix[i][e])
+        

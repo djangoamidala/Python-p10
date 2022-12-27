@@ -20,3 +20,18 @@
 # Appelez les fonctions et affichez les résultats
 
 # réponse 10.6
+
+
+def meters_to_miles(a:float) -> int:
+    miles = a / 1609.344
+    return miles
+
+print(meters_to_miles(1000))
+
+def miles_to_meters(a:float) -> float:
+    meters = a * 1609.344
+    return meters
+    
+print(miles_to_meters(3))
+
+

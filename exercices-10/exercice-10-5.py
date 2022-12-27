@@ -8,3 +8,14 @@
 # Appelez la fonction et affichez le résultat
 
 # réponse 10.5
+
+def compare(a: float, b: float) -> int:
+    if a > b:
+        return 1
+    elif a < b:
+        return -1
+    elif a == b: 
+        return 0
+
+
+print(compare(50,200))

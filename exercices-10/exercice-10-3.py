@@ -8,15 +8,13 @@
 # Appelez la fonction avec la valeur False et affichez le résultat
 
 # réponse 10.3
-import random
-def booleen(True or False)-> bool:
-    if True:
+def booleen(a : bool )-> bool:
+    if a == True:
         print("oui")
     else:
         print("non")
 
+booleen(5)
 
-r = random.randint(0,1)
-booleen(r)
-print(r)
+
 

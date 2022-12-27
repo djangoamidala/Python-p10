@@ -11,4 +11,4 @@ def  my_sum(a: float, b: float) -> float:
     '''a and b float'''
     return a + b
     
-print(my_sum(15,48))
+my_sum(15,48)
