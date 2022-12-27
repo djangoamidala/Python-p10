@@ -12,14 +12,14 @@
 # Référence : [Quels sont les taux de TVA en vigueur en France et dans l'Union européenne ? | economie.gouv.fr](https://www.economie.gouv.fr/cedef/taux-tva-france-et-union-europeenne)
 
 # réponse 10.7
-def compute_tax(price:float, tax_type:int):
+def compute_tax(price:float, tax_type:int) -> float:
     if tax_type == 1:
         price += price * 2.1 / 100 
-    if tax_type == 2:
+    elif tax_type == 2:
         price += price * 5.5 / 100
-    if tax_type == 3:
+    elif tax_type == 3:
         price += price * 10 / 100
-    if tax_type == 4:
+    elif tax_type == 4:
         price += price * 20 / 100
     return price
 
